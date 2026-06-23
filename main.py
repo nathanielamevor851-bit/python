@@ -159,7 +159,7 @@ def alMart():                                                                   
             if PasswordEntry.get() == "Password":                                       # Checking if Entry box is empty
                 PasswordEntry.config(show="*", fg="#DAA520")                            # Adding Password and fore color
                 PasswordEntry.delete(0, "end")                            # Erasing all text in entry field
-                EyeImage.place(x=desire_width // 1.6, y=desire_height // 2.55)          # placing eye image
+                EyeImage.place(x=desire_width // 2.95 + 370, y=desire_height // 2.55)          # placing eye image
 
         def PasswordEntry_Leave(*args):                                                 # Creating a function
             if len(PasswordEntry.get()) == 0:                                           # Checking if entry box is empty
